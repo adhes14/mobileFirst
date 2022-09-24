@@ -75,9 +75,9 @@ header img {
 .header--tittle-container .header--button {
     position: absolute;
     left: calc(50% - 115px);
-    top: 270px;
+    top: 310px;
     display: block;
-    margin-top: 35px;
+    /* margin-top: 35px; */
     padding: 15px;
     width: 229px;
     height: 48px;
@@ -98,4 +98,24 @@ header img {
     height: 8px;
     margin-left: 10px;
     background-image: url('../assets/icons/vector-down.svg');
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main--exchange-container {
+    width: 100%;
+    height: auto;
+    padding: 80px 0 30px 0;
+    text-align: center;
+}
+
+.main--exchange-container--tittle {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
 }
