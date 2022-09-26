@@ -153,6 +153,7 @@ main {
     height: 360px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
+    scroll-snap-align: center;
 }
 
 .currency-table-tittle {
@@ -429,10 +430,9 @@ main {
     color: #757575;
 }
 
-.plans-container-slider {
+.plans-container-slider, .main-tables-container {
     display: flex;
     gap: 10px;
-    height: 316px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
